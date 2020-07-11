@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Help Single Topic | MegaMedx</title>
+  <!-- SEO Meta Tags-->
+  <meta name="description" content="MegaMedx - Nigeria's Largest Pharmaceutical Ecommerce">
+  <meta name="keywords" content="medical, pharma, pharmaceutical, drugs, medicine, ">
+  <meta name="author" content="Nativebrands">
+  <!-- Viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon and Touch Icons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" color="#fe6a6a" href="safari-pinned-tab.svg">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Vendor Styles including: Font Icons, Plugins, etc.-->
+  <link rel="stylesheet" media="screen" href="css/vendor.min.css">
+  <!-- Main Theme Styles + Bootstrap-->
+  <link rel="stylesheet" media="screen" id="main-styles" href="css/theme.min.css">
+  <!-- Google Tag Manager-->
+</head>
+<!-- Body-->
+<body class="toolbar-enabled" style="background-color: rgb(235, 247, 235) !important;">
+  <!-- Sign in / sign up modal-->
+  <div class="modal fade" id="signin-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <ul class="nav nav-tabs card-header-tabs" role="tablist">
+            <li class="nav-item"><a class="nav-link active" href="#signin-tab" data-toggle="tab" role="tab" aria-selected="true"><i class="czi-unlocked mr-2 mt-n1"></i>Sign in</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#signup-tab" data-toggle="tab" role="tab" aria-selected="false"><i class="czi-user mr-2 mt-n1"></i>Sign up</a></li> -->
+          </ul>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body tab-content py-4">
+          <form class="needs-validation tab-pane fade show active" autocomplete="off" novalidate id="signin-tab">
+            <div class="form-group">
+              <label for="si-email">Email address</label>
+              <input class="form-control" type="email" id="si-email" placeholder="johndoe@example.com" required>
+              <div class="invalid-feedback">Please provide a valid email address.</div>
+            </div>
+            <div class="form-group">
+              <label for="si-password">Password</label>
+              <div class="password-toggle">
+                <input class="form-control" type="password" id="si-password" required>
+                <label class="password-toggle-btn">
+                  <input class="custom-control-input" type="checkbox"><i class="czi-eye password-toggle-indicator"></i><span class="sr-only">Show password</span>
+                </label>
+              </div>
+            </div>
+            <div class="form-group d-flex flex-wrap justify-content-between">
+              <div class="custom-control custom-checkbox mb-2">
+                <input class="custom-control-input" type="checkbox" id="si-remember">
+                <label class="custom-control-label" for="si-remember">Remember me</label>
+              </div><a class="font-size-sm" href="account-password-recovery.html">Forgot password?</a>
+            </div>
+            <button class="btn btn-primary btn-block btn-shadow" type="submit">Sign in</button>
+          </form>
+          <form class="needs-validation tab-pane fade" autocomplete="off" novalidate id="signup-tab">
+            <div class="form-group">
+              <label for="su-name">Full name</label>
+              <input class="form-control" type="text" id="su-name" placeholder="John Doe" required>
+              <div class="invalid-feedback">Please fill in your name.</div>
+            </div>
+            <div class="form-group">
+              <label for="su-email">Email address</label>
+              <input class="form-control" type="email" id="su-email" placeholder="johndoe@example.com" required>
+              <div class="invalid-feedback">Please provide a valid email address.</div>
+            </div>
+            <div class="form-group">
+              <label for="su-password">Password</label>
+              <div class="password-toggle">
+                <input class="form-control" type="password" id="su-password" required>
+                <label class="password-toggle-btn">
+                  <input class="custom-control-input" type="checkbox"><i class="czi-eye password-toggle-indicator"></i><span class="sr-only">Show password</span>
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="su-password-confirm">Confirm password</label>
+              <div class="password-toggle">
+                <input class="form-control" type="password" id="su-password-confirm" required>
+                <label class="password-toggle-btn">
+                  <input class="custom-control-input" type="checkbox"><i class="czi-eye password-toggle-indicator"></i><span class="sr-only">Show password</span>
+                </label>
+              </div>
+            </div>
+            <button class="btn btn-primary btn-block btn-shadow" type="submit">Sign up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Quick View Modal-->
+  <div class="modal-quick-view modal fade" id="quick-view-electro" tabindex="-1">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title product-title"><a href="single-product.html" data-toggle="tooltip" data-placement="right" title="Go to product page">Panadol Extra<i class="czi-arrow-right font-size-lg ml-2"></i></a></h4>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <!-- Product gallery-->
+            <div class="col-lg-7 pr-lg-0">
+              <div class="cz-product-gallery">
+                <div class="cz-preview order-sm-2">
+                  <div class="cz-preview-item active" id="first"><img class="cz-image-zoom" src="img/shop/single/gallery/05.jpg" data-zoom="img/shop/single/gallery/05.jpg" alt="MegaMedx - Mega Healthcare Solutions">
+                    <div class="cz-image-zoom-pane"></div>
+                  </div>
+                  <div class="cz-preview-item" id="second"><img class="cz-image-zoom" src="img/shop/single/gallery/06.jpg" data-zoom="img/shop/single/gallery/06.jpg" alt="MegaMedx - Mega Healthcare Solutions">
+                    <div class="cz-image-zoom-pane"></div>
+                  </div>
+                  <div class="cz-preview-item" id="third"><img class="cz-image-zoom" src="img/shop/single/gallery/07.jpg" data-zoom="img/shop/single/gallery/07.jpg" alt="MegaMedx - Mega Healthcare Solutions">
+                    <div class="cz-image-zoom-pane"></div>
+                  </div>
+                  <div class="cz-preview-item" id="fourth"><img class="cz-image-zoom" src="img/shop/single/gallery/08.jpg" data-zoom="img/shop/single/gallery/08.jpg" alt="MegaMedx - Mega Healthcare Solutions">
+                    <div class="cz-image-zoom-pane"></div>
+                  </div>
+                </div>
+                <div class="cz-thumblist order-sm-1"><a class="cz-thumblist-item active" href="#first"><img src="img/shop/single/gallery/th05.jpg" alt="Product thumb"></a><a class="cz-thumblist-item" href="#second"><img src="img/shop/single/gallery/th06.jpg" alt="Product thumb"></a><a class="cz-thumblist-item" href="#third"><img src="img/shop/single/gallery/th07.jpg" alt="Product thumb"></a><a class="cz-thumblist-item" href="#fourth"><img src="img/shop/single/gallery/th08.jpg" alt="Product thumb"></a></div>
+              </div>
+            </div>
+            <!-- Product details-->
+            <div class="col-lg-5 pt-4 pt-lg-0 cz-image-zoom-pane">
+              <div class="product-details ml-auto pb-3">
+                <div class="mb-2">
+                  <div class="star-rating"><i class="sr-star czi-star-filled active"></i><i class="sr-star czi-star-filled active"></i><i class="sr-star czi-star-filled active"></i><i class="sr-star czi-star-filled active"></i><i class="sr-star czi-star"></i>
+                  </div><span class="d-inline-block font-size-sm text-body align-middle mt-1 ml-1">74 Reviews</span>
+                </div>
+                <div class="h3 font-weight-normal text-accent mb-3 mr-1">₦124.<small>99</small></div>
+                <div class="font-size-sm mb-4"><span class="text-heading font-weight-medium mr-1">Color:</span><span class="text-muted">Dark blue/Orange</span></div>
+                <div class="position-relative mr-n4 mb-3">
+                  <div class="custom-control custom-option custom-control-inline mb-2">
+                    <input class="custom-control-input" type="radio" name="color" id="color1" checked>
+                    <label class="custom-option-label rounded-circle" for="color1"><span class="custom-option-color rounded-circle" style="background-color: #f25540;"></span></label>
+                  </div>
+                  <div class="custom-control custom-option custom-control-inline mb-2">
+                    <input class="custom-control-input" type="radio" name="color" id="color2">
+                    <label class="custom-option-label rounded-circle" for="color2"><span class="custom-option-color rounded-circle" style="background-color: #65805b;"></span></label>
+                  </div>
+                  <div class="custom-control custom-option custom-control-inline mb-2">
+                    <input class="custom-control-input" type="radio" name="color" id="color3">
+                    <label class="custom-option-label rounded-circle" for="color3"><span class="custom-option-color rounded-circle" style="background-color: #f5f5f5;"></span></label>
+                  </div>
+                  <div class="custom-control custom-option custom-control-inline mb-2">
+                    <input class="custom-control-input" type="radio" name="color" id="color4">
+                    <label class="custom-option-label rounded-circle" for="color4"><span class="custom-option-color rounded-circle" style="background-color: #333;"></span></label>
+                  </div>
+                  <div class="product-badge product-available mt-n1"><i class="czi-security-check"></i>Product available</div>
+                </div>
+                <div class="d-flex align-items-center pt-2 pb-4">
+                  <select class="custom-select mr-3" style="width: 5rem;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                  <button class="btn btn-primary btn-shadow btn-block" type="button"><i class="czi-cart font-size-lg mr-2"></i>Add to Cart</button>
+                </div>
+                <div class="d-flex mb-4">
+                  <div class="w-100 mr-3">
+                    <button class="btn btn-secondary btn-block" type="button"><i class="czi-heart font-size-lg mr-2"></i><span class='d-none d-sm-inline'>Add to </span>Wishlist</button>
+                  </div>
+                  <div class="w-100">
+                    <button class="btn btn-secondary btn-block" type="button"><i class="czi-compare font-size-lg mr-2"></i>Compare</button>
+                  </div>
+                </div>
+                <h5 class="h6 mb-3 py-2 border-bottom"><i class="czi-announcement text-muted font-size-lg align-middle mt-n1 mr-2"></i>Product info</h5>
+                <h6 class="font-size-sm mb-2">General</h6>
+                <ul class="font-size-sm pb-2">
+                  <li><span class="text-muted">Model: </span>Amazfit Smartwatch</li>
+                  <li><span class="text-muted">Gender: </span>Unisex</li>
+                  <li><span class="text-muted">OS campitibility: </span>Android / iOS</li>
+                </ul>
+                <h6 class="font-size-sm mb-2">Physical specs</h6>
+                <ul class="font-size-sm pb-2">
+                  <li><span class="text-muted">Shape: </span>Rectangular</li>
+                  <li><span class="text-muted">Body material: </span>Plastics / Ceramics</li>
+                  <li><span class="text-muted">Band material: </span>Silicone</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header Starts -->
+  <header class="box-shadow-sm">
+    <!-- Topbar-->
+    <div class="topbar topbar-dark bg-blue">
+      <div class="container">
+        <div>
+          <div class="topbar-text text-nowrap d-none d-md-inline-block border-left border-light pl-3 ml-3"><span class="text-muted mr-1">Place Orders:</span><a class="topbar-link" href="tel:+2348098765432">+234 809 876 5432</a></div>
+        </div>
+        <div class="cz-carousel cz-controls-static d-none d-md-block">
+          <div class="cz-carousel-inner" data-carousel-options="{&quot;mode&quot;: &quot;gallery&quot;, &quot;nav&quot;: false}">
+            <div class="topbar-text">Orders before 4PM - 24 Hours Delivery</div>
+            <div class="topbar-text">We return money within 30 days</div>
+            <div class="topbar-text">24/7 Support: support@megamedx.com.ng</div>
+            <div class="topbar-text">24/7 Support: +234 809 876 5432</div>
+          </div>
+        </div>
+        <div class="topbar-text dropdown d-md-none ml-auto"><a class="topbar-link dropdown-toggle" href="#" data-toggle="dropdown">Wishlist / Compare / Track</a>
+          <ul class="dropdown-menu dropdown-menu-right">
+            <li><a class="dropdown-item" href="account-wishlist.html"><i class="czi-heart text-muted mr-2"></i>Wishlist (3)</a></li>
+            <li><a class="dropdown-item" href="comparison.html"><i class="czi-compare text-muted mr-2"></i>Compare (3)</a></li>
+            <li><a class="dropdown-item" href="order-tracking.html"><i class="czi-location text-muted mr-2"></i>Order tracking</a></li>
+          </ul>
+        </div>
+        <div class="d-none d-md-block ml-3 text-nowrap">
+
+          <div class="topbar-text dropdown disable-autohide"><a class="topbar-link dropdown-toggle" href="#" data-toggle="dropdown"><img class="mr-2" width="20" src="img/flags/en.png" alt="English"/>Eng / ₦</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <select class="custom-select custom-select-sm">
+                  <option value="ngn">₦ NGN</option>
+                  <option value="usd">₦ USD</option>
+                </select>
+              </li>
+              <li><a class="dropdown-item pb-1" href="#"><img class="mr-2" width="20" src="img/flags/fr.png" alt="Français"/>Français</a></li>
+              <li><a class="dropdown-item pb-1" href="#"><img class="mr-2" width="20" src="img/flags/de.png" alt="Deutsch"/>Deutsch</a></li>
+              <li><a class="dropdown-item" href="#"><img class="mr-2" width="20" src="img/flags/it.png" alt="Italiano"/>Italiano</a></li>
+            </ul>
+          </div>
+
+          <a class="topbar-link ml-3 border-left border-light pl-3 d-none d-md-inline-block" href="order-tracking.html"><i class="czi-location mt-n1"></i>Order tracking</a></div>
+        </div>
+      </div>
+      <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+      <div class="navbar-sticky bg-light">
+        <div class="navbar navbar-expand-lg navbar-light">
+          <div class="container"><a class="navbar-brand d-none d-sm-block mr-3 flex-shrink-0" href="index.html" style="min-width: 7rem;"><img width="142" src="img/logo-dark.png" alt="MegaMedx - Mega Healthcare"/></a><a class="navbar-brand d-sm-none mr-2" href="index.html" style="min-width: 4.625rem;"><img width="74" src="img/logo-dark.png" alt="MegaMedx - Mega Healthcare"/></a>
+            <!-- Search-->
+            <div class="input-group-overlay d-none d-lg-block mx-4">
+              <div class="input-group-prepend-overlay"><span class="input-group-text"><i class="czi-search"></i></span></div>
+              <input class="form-control prepended-form-control appended-form-control" type="text" placeholder="Search for products">
+              <div class="input-group-append-overlay">
+                <select class="custom-select">
+                  <option>All categories</option>
+                  <option>Medicine</option>
+                  <option>Medical Equipment & Supplies</option>
+                  <option>Beauty & Health</option>
+                  <option>Baby Products</option>
+                  <option>Consumables & Disposables</option>
+                  <option>Dietry / Nutritional Supplements</option>
+                </select>
+              </div>
+            </div>
+            <!-- Toolbar-->
+            <div class="navbar-toolbar d-flex flex-shrink-0 align-items-center">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button><a class="navbar-tool navbar-stuck-toggler" href="#"><span class="navbar-tool-tooltip">Expand menu</span>
+                <div class="navbar-tool-icon-box"><i class="navbar-tool-icon czi-menu"></i></div></a>
+                <a class="navbar-tool d-none d-lg-flex" href="comparison.html"><span class="navbar-tool-tooltip">Compare Lists</span>
+                  <div class="navbar-tool-icon-box"><i class="navbar-tool-icon czi-compare"></i></div></a>
+                  <a class="navbar-tool d-none d-lg-flex" href="account-wishlist.html"><span class="navbar-tool-tooltip">Wishlist</span>
+                    <div class="navbar-tool-icon-box"><i class="navbar-tool-icon czi-heart"></i></div></a>
+                    <a class="navbar-tool ml-1 ml-lg-0 mr-n1 mr-lg-2" href="#signin-modal" data-toggle="modal">
+                      <div class="navbar-tool-icon-box"><i class="navbar-tool-icon czi-user"></i></div>
+                      <div class="navbar-tool-text ml-n3"><small>Hello, Sign in</small>My Account</div></a>
+                      <div class="navbar-tool dropdown ml-3"><a class="navbar-tool-icon-box bg-secondary dropdown-toggle" href="shop-cart.html"><span class="navbar-tool-label">4</span><i class="navbar-tool-icon czi-cart"></i></a><a class="navbar-tool-text" href="shop-cart.html"><small>My Cart</small>₦1,247,000</a>
+                        <!-- Cart dropdown-->
+                        <div class="dropdown-menu dropdown-menu-right" style="width: 20rem;">
+                          <div class="widget widget-cart px-3 pt-2 pb-3">
+                            <div style="height: 15rem;" data-simplebar data-simplebar-auto-hide="false">
+                              <div class="widget-cart-item pb-2 border-bottom">
+                                <button class="close text-danger" type="button" aria-label="Remove"><span aria-hidden="true">&times;</span></button>
+                                <div class="media align-items-center"><a class="d-block mr-2" href="single-product.html"><img width="64" src="img/panadol.jpg" alt="Product"/></a>
+                                  <div class="media-body">
+                                    <h6 class="widget-product-title"><a href="single-product.html">Panadol Xtra</a></h6>
+                                    <div class="widget-product-meta"><span class="text-accent mr-2">₦259.<small>00</small></span><span class="text-muted">x 1</span></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="widget-cart-item py-2 border-bottom">
+                                <button class="close text-danger" type="button" aria-label="Remove"><span aria-hidden="true">&times;</span></button>
+                                <div class="media align-items-center"><a class="d-block mr-2" href="single-product.html"><img width="64" src="img/jobelyn.jpg" alt="Product"/></a>
+                                  <div class="media-body">
+                                    <h6 class="widget-product-title"><a href="single-product.html">Jobelyn</a></h6>
+                                    <div class="widget-product-meta"><span class="text-accent mr-2">₦122.<small>00</small></span><span class="text-muted">x 1</span></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="widget-cart-item py-2 border-bottom">
+                                <button class="close text-danger" type="button" aria-label="Remove"><span aria-hidden="true">&times;</span></button>
+                                <div class="media align-items-center"><a class="d-block mr-2" href="single-product.html"><img width="64" src="img/facemask.jpg" alt="Product"/></a>
+                                  <div class="media-body">
+                                    <h6 class="widget-product-title"><a href="single-product.html">Disposable Face Mask</a></h6>
+                                    <div class="widget-product-meta"><span class="text-accent mr-2">₦799.<small>00</small></span><span class="text-muted">x 1</span></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="widget-cart-item py-2 border-bottom">
+                                <button class="close text-danger" type="button" aria-label="Remove"><span aria-hidden="true">&times;</span></button>
+                                <div class="media align-items-center"><a class="d-block mr-2" href="single-product.html"><img width="64" src="img/chemiron.jpg" alt="Product"/></a>
+                                  <div class="media-body">
+                                    <h6 class="widget-product-title"><a href="single-product.html">Chemiron</a></h6>
+                                    <div class="widget-product-meta"><span class="text-accent mr-2">₦67.<small>00</small></span><span class="text-muted">x 1</span></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="d-flex flex-wrap justify-content-between align-items-center py-3">
+                              <div class="font-size-sm mr-2 py-2"><span class="text-muted">Subtotal:</span><span class="text-accent font-size-base ml-1">₦1,247.<small>00</small></span></div><a class="btn btn-outline-secondary btn-sm" href="shop-cart.html">Expand cart<i class="czi-arrow-right ml-1 mr-n1"></i></a>
+                            </div><a class="btn btn-primary btn-sm btn-block" href="checkout-details.html"><i class="czi-card mr-2 font-size-base align-middle"></i>Checkout</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="navbar navbar-expand-lg navbar-light navbar-stuck-menu mt-n2 pt-0 pb-2">
+                  <div class="container">
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                      <!-- Search-->
+                      <div class="input-group-overlay d-lg-none my-3">
+                        <div class="input-group-prepend-overlay"><span class="input-group-text"><i class="czi-search"></i></span></div>
+                        <input class="form-control prepended-form-control" type="text" placeholder="Search for products">
+                      </div>
+                      <!-- Departments menu-->
+                      <ul class="navbar-nav mega-nav pr-lg-2 mr-lg-2">
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle pl-0" href="#" data-toggle="dropdown"><i class="czi-menu align-middle mt-n1 mr-2"></i>Departments</a>
+                          <ul class="dropdown-menu cat-dropdown">
+                            <li class="dropdown mega-dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown"><img src="img/medicine.svg" class="cat-icon"> Medicine</a>
+                              <div class="dropdown-menu p-0">
+                                <div class="d-flex flex-wrap flex-md-nowrap px-2">
+
+                                  <div class="mega-dropdown-column py-4 px-3">
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base mb-3">OTC</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Injection</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Capsules</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Tablets - Sachet</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Tablets - Container</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Syrup Bottle</a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base mb-3">Prescription Drugs</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Prescription Drugs</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Capsule</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Tablets - Sachet</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Tablets - Container</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Syrup</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Injection</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+
+                                  <div class="mega-dropdown-column d-none d-lg-block py-4 text-center"><a class="d-block mb-2" href="#"><img src="img/medicine-cat.jpg" alt="Medicine"/></a>
+                                    <div class="font-size-sm mb-3">Medicine</div><a class="btn btn-primary btn-shadow btn-sm" href="#">View All<i class="czi-arrow-right font-size-xs ml-1"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="dropdown mega-dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown"><img src="img/medical-equipments.svg" class="cat-icon"> Medical Equipment & Supplies</a>
+                              <div class="dropdown-menu p-0">
+                                <div class="d-flex flex-wrap flex-md-nowrap px-2">
+                                  <div class="mega-dropdown-column py-4 px-3">
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base mb-3">Dental Instrument</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Medical Equipment</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Health and Beauty Aids</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Explorers</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Probes</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Mirror Handle</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Sickle/Jacquette Scalers</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Black Titanium Instrument</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Derbinement/Furcation</a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Cardiovascular and Thoracic</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Vessel Forceps</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Vein Holders</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Steneal Knife</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Flushing Needle</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Aortic Punches</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Coastal Peiosteotomes</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Rib Raspatories</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Retractors</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="mega-dropdown-column py-4 px-3">
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Ophthalmic Equipment</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Scissors</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Enucleation Spoon</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Enucleation Snear</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Capsule Polisher</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Spatula</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Eye Speculum</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Lens Holding Forceps</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Keratometer</a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Endoscopy Equipment</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Laryngoscopes</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Laparoscopes</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Anascope</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Protoscopes</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Arthroscope</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Sinuscope</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Dematoscope</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Stigmoidscope</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="mega-dropdown-column d-none d-lg-block py-4 text-center"><a class="d-block mb-2" href="#"><img src="img/medical-equip.jpg" alt="Medical Equipment & Supplies"/></a>
+                                    <div class="font-size-sm mb-3">Medical Equipments & Supplies</div><a class="btn btn-primary btn-shadow btn-sm" href="#">View All<i class="czi-arrow-right font-size-xs ml-1"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="dropdown mega-dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown"><img src="img/beauty-health.svg" class="cat-icon"> Beauty & Health</a>
+                              <div class="dropdown-menu p-0">
+                                <div class="d-flex flex-wrap flex-md-nowrap px-2">
+                                  <div class="mega-dropdown-column py-4 px-3">
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Wines and Spirit</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Wines and Spirits</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Spirits</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">White Wine</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Red Wine</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">KJ Wine</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Vodka</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Whisky</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Liqueur</a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Health Care</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Feminine Pads</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Family Palnning Aids</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Feminine Hygiene</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">First Aids</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Fitness Electronics</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Fitness Equipment</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Free Weights</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Flu Reliefs</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+
+                                  <div class="mega-dropdown-column py-4 px-3">
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Beauty & Personal Care</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Bath & Body</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Bath Stools</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Deodorants & Anti-perspirants</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Dental and Oral Hyiene</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Dermatitis Relief</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Digestive Support</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Home Gym</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Glucose Health Support</a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Beauty & Health</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Personal Lift</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Poison Ivy Relief</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Pill Reminder Device</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Body Washes</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Biometric Monitors</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Body Fat Analyzers</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Antioxidants</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Allergy & Sinus Relief</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+
+                                  <div class="mega-dropdown-column d-none d-lg-block py-4 text-center"><a class="d-block mb-2" href="#"><img src="img/beauty-health.jpg" alt="Beauty & Health"/></a>
+                                    <div class="font-size-sm mb-3">Beauty & Health</div><a class="btn btn-primary btn-shadow btn-sm" href="#">View All<i class="czi-arrow-right font-size-xs ml-1"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="dropdown mega-dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown"><img src="img/baby-products.svg" class="cat-icon"> Baby Products</a>
+                              <div class="dropdown-menu p-0">
+                                <div class="d-flex flex-wrap flex-md-nowrap px-2">
+
+                                  <div class="mega-dropdown-column py-4 px-3">
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Baby Nursery</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Crib or Bassinets</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Changing Tables</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Storage Baskets</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Dressers</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Rocking Chair</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Clothes Hamper</a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Baby & Toddler Toys</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Mobiles</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Rattles</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Bath Toys</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Soft Stuffed Animals</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Hardback</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Push and Pull Toys</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+
+                                  <div class="mega-dropdown-column py-4 px-3">
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Feeding</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Babylist Bottle Box</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Tommee Tippee</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Philips Avent</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Comotomo</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">MAM</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Dr Brown's</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Medela</a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Bathing & Skin Care</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Thick Towels</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Soft Washcloths</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Basin or Clean Sink</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Cotton Balls</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Baby Shampoo</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Baby Soap</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Hooded Baby Towels</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Clean Diaper and Clothing</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+
+                                  <div class="mega-dropdown-column d-none d-lg-block py-4 text-center"><a class="d-block mb-2" href="#"><img src="img/baby-products.jpg" alt="Baby Products"/></a>
+                                    <div class="font-size-sm mb-3">Baby Products</div><a class="btn btn-primary btn-shadow btn-sm" href="#">View All<i class="czi-arrow-right font-size-xs ml-1"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="dropdown mega-dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown"><img src="img/consume-dispose.svg" class="cat-icon"> Consumables & Disposables</a>
+                              <div class="dropdown-menu p-0">
+                                <div class="d-flex flex-wrap flex-md-nowrap px-2">
+
+                                  <div class="mega-dropdown-column py-4 px-3">
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Laboratory Consumables</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Pipettes</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Syringes</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Beakers</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Funnels</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Test Tubes</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Disposable Gloves</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Face Masks</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Shoe Covers</a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Surgical Consumables</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Gowns</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Medical Masks</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Medical Masks</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Theatre Apparel</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Eyewear</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Swabs</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Sterile Fields & Drapes</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+
+                                  <div class="mega-dropdown-column py-4 px-3">
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Tapes</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Micropore Paper Tapes</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Transpore Polythylene Tape</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Zinc Oxide Tape</a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Pipette</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Serological Pipettes</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Open-End Pipettes</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Bacteriological Pipettes</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Aspirating Pipettes</a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base">Tubes</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Jejunostomy Tubes</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Gastrostomy Tubes</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Nasogastric Feeding Tube (NG)</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Nasojejunal Feeding Tude (NJ)</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+
+                                  <div class="mega-dropdown-column d-none d-lg-block py-4 text-center"><a class="d-block mb-2" href="#"><img src="img/consume-dispose.jpg" alt="Consumables & Disposables"/></a>
+                                    <div class="font-size-sm mb-3">Consumables & Disposables</div><a class="btn btn-primary btn-shadow btn-sm" href="#">View All<i class="czi-arrow-right font-size-xs ml-1"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="dropdown mega-dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown"><img src="img/diet-supplements.svg" class="cat-icon"> Dietry / Nutritional Supplements</a>
+                              <div class="dropdown-menu p-0">
+                                <div class="d-flex flex-wrap flex-md-nowrap px-2">
+
+                                  <div class="mega-dropdown-column py-4 px-3">
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base mb-3">OTC</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Injection</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Capsules</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Tablets - Sachet</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Tablets - Container</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Syrup Bottle</a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="widget widget-links mb-3">
+                                      <h6 class="font-size-base mb-3">Prescription Drugs</h6>
+                                      <ul class="widget-list">
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Prescription Drugs</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Capsule</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Tablets - Sachet</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Tablets - Container</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Syrup</a></li>
+                                        <li class="widget-list-item pb-1"><a class="widget-list-link" href="#">Injection</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+
+                                  <div class="mega-dropdown-column d-none d-lg-block py-4 text-center"><a class="d-block mb-2" href="#"><img src="img/supplements.jpg" alt="Wearable Electronics"/></a>
+                                    <div class="font-size-sm mb-3">Dietry / Nutritional Supplements</div><a class="btn btn-primary btn-shadow btn-sm" href="#">View All<i class="czi-arrow-right font-size-xs ml-1"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+
+                            <li class="dropdown mega-dropdown">
+                              <a class="dropdown-item" href="#"><i class="czi-arrow-right-circle icon-2x"></i> Drug Classifications</a>
+                            </li>
+
+                            <li class="dropdown mega-dropdown">
+                              <a class="dropdown-item" href="products.html"><i class="czi-arrow-right-circle icon-2x"></i> All Products</a>
+                            </li>
+
+                            <li class="dropdown mega-dropdown">
+                              <a class="dropdown-item" href="#"><i class="czi-arrow-right-circle icon-2x"></i> Suppliers Directory</a>
+                            </li>
+
+                            <li class="dropdown mega-dropdown">
+                              <a class="dropdown-item" href="shop-categories.html"><i class="czi-arrow-right-circle icon-2x"></i> Full Store Directory</a>
+                            </li>
+
+                          </ul>
+                        </li>
+                      </ul>
+                      <!-- Primary menu-->
+                      <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html">New Arrivals</a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html">Daily Deals</a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html">Auctions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html">Rentals</a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html">OTC Drugs</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">More...</a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Prime Vendors</a></li>
+                            <li><a class="dropdown-item" href="help-topics.html">Supports</a></li>
+                            <li><a class="dropdown-item" href="blog.html">Blogs and Articles</a></li>
+                            <li><a class="dropdown-item" href="#">Careers</a></li>
+                            <li><a class="dropdown-item" href="#">MMX Mobile Apps</a></li>
+                            <li><a class="dropdown-item" href="contacts.html">Contacts</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </header>
+            <!--/ Header Ends -->
+
+            <!-- Page Title (Light)-->
+            <div class="bg-green py-4">
+              <div class="container d-lg-flex justify-content-between py-2 py-lg-3">
+                <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb flex-lg-nowrap justify-content-center justify-content-lg-start">
+                      <li class="breadcrumb-item"><a class="text-nowrap" href="index.html"><i class="czi-home"></i>Home</a></li>
+                      <li class="breadcrumb-item text-nowrap"><a href="help-topics.html">Help center</a>
+                      </li>
+                      <li class="breadcrumb-item text-nowrap active" aria-current="page">Single Topic</li>
+                    </ol>
+                  </nav>
+                </div>
+                <div class="order-lg-1 pr-lg-4 text-center text-lg-left">
+                  <h1 class="h3 mb-0">Single Topic</h1>
+                </div>
+              </div>
+            </div>
+            <!-- Page Content-->
+            <div class="container py-5 mt-md-2 mb-2">
+              <div class="row">
+                <div class="col-lg-3">
+                  <!-- Related articles sidebar-->
+                  <div class="cz-sidebar border-right" id="help-sidebar">
+                    <div class="cz-sidebar-header box-shadow-sm">
+                      <button class="close ml-auto" type="button" data-dismiss="sidebar" aria-label="Close"><span class="d-inline-block font-size-xs font-weight-normal align-middle">Close sidebar</span><span class="d-inline-block align-middle ml-2" aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="cz-sidebar-body py-lg-1 pl-lg-0" data-simplebar data-simplebar-auto-hide="true">
+                      <!-- Links-->
+                      <div class="widget widget-links">
+                        <h3 class="widget-title">Related articles</h3>
+                        <ul class="widget-list">
+                          <li class="widget-list-item"><a class="widget-list-link" href="#"><i class="czi-book text-muted align-middle mt-n1 mr-1"></i>Managing account</a></li>
+                          <li class="widget-list-item"><a class="widget-list-link" href="#"><i class="czi-book text-muted align-middle mt-n1 mr-1"></i>Working with dashboard</a></li>
+                          <li class="widget-list-item"><a class="widget-list-link" href="#"><i class="czi-book text-muted align-middle mt-n1 mr-1"></i>Available payment methods</a></li>
+                          <li class="widget-list-item"><a class="widget-list-link" href="#"><i class="czi-book text-muted align-middle mt-n1 mr-1"></i>Delivery information</a></li>
+                          <li class="widget-list-item"><a class="widget-list-link" href="#"><i class="czi-book text-muted align-middle mt-n1 mr-1"></i>Order tracking instructions</a></li>
+                          <li class="widget-list-item"><a class="widget-list-link" href="#"><i class="czi-book text-muted align-middle mt-n1 mr-1"></i>Refund policy</a></li>
+                          <li class="widget-list-item"><a class="widget-list-link" href="#"><i class="czi-book text-muted align-middle mt-n1 mr-1"></i>Offers and discounts</a></li>
+                          <li class="widget-list-item"><a class="widget-list-link" href="#"><i class="czi-book text-muted align-middle mt-n1 mr-1"></i>Reward points</a></li>
+                          <li class="widget-list-item"><a class="widget-list-link" href="#"><i class="czi-book text-muted align-middle mt-n1 mr-1"></i>Affiliate program</a></li>
+                          <li class="widget-list-item"><a class="widget-list-link" href="#"><i class="czi-book text-muted align-middle mt-n1 mr-1"></i>After purchase support</a></li>
+                          <li class="widget-list-item"><a class="widget-list-link" href="#"><i class="czi-book text-muted align-middle mt-n1 mr-1"></i>Service terms &amp; conditions</a></li>
+                          <li class="widget-list-item"><a class="widget-list-link" href="#"><i class="czi-book text-muted align-middle mt-n1 mr-1"></i>Most popular questions</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <h2 class="h4 pb-3">Available Payment Methods on Checkout</h2>
+                  <p class="font-size-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                  <p class="font-size-md">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                  <div class="row pt-3 pb-4 mb-2 mb-md-4">
+                    <div class="col-md-7"><img class="w-100 img-thumbnail" src="img/pages/help-article.jpg" style="max-width: 508px;" alt="Help image"></div>
+                    <div class="col-md-5 pt-4">
+                      <h3 class="h6">Pros of our payment options</h3>
+                      <ul class="list-unstyled font-size-sm pt-2">
+                        <li class="d-flex align-items-center mb-2"><i class="czi-check text-success mr-2"></i><span>Ut enim ad minima veniam, quis nostrum</span></li>
+                        <li class="d-flex align-items-center mb-2"><i class="czi-check text-success mr-2"></i><span>At vero eos et accusamus et iusto odio</span></li>
+                        <li class="d-flex align-items-center mb-2"><i class="czi-check text-success mr-2"></i><span>Nam libero tempore, cum soluta nobis</span></li>
+                        <li class="d-flex align-items-center mb-2"><i class="czi-check text-success mr-2"></i><span>Et harum quidem rerum facilis est et expedita</span></li>
+                        <li class="d-flex align-items-center mb-2"><i class="czi-check text-success mr-2"></i><span>Quis autem vel eum iure reprehenderit</span></li>
+                        <li class="d-flex align-items-center mb-2"><i class="czi-check text-success mr-2"></i><span>Excepteur sint occaecat cupidatat non</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <h2 class="h4 pb-3">Methods Detail</h2>
+                  <div class="accordion" id="methods">
+                    <div class="card">
+                      <div class="card-header">
+                        <h3 class="accordion-heading"><a href="#methodOne" role="button" data-toggle="collapse" aria-expanded="true" aria-controls="methodOne">Credit / Debit Cards<span class="accordion-indicator"><i data-feather="chevron-up"></i></span></a></h3>
+                      </div>
+                      <div class="collapse show" id="methodOne" data-parent="#methods">
+                        <div class="card-body font-size-md">
+                          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <h3 class="accordion-heading"><a class="collapsed" href="#methodTwo" role="button" data-toggle="collapse" aria-expanded="true" aria-controls="methodTwo">Pay with PayStack<span class="accordion-indicator"><i data-feather="chevron-up"></i></span></a></h3>
+                      </div>
+                      <div class="collapse" id="methodTwo" data-parent="#methods">
+                        <div class="card-body font-size-md">
+                          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <h3 class="accordion-heading"><a class="collapsed" href="#methodThree" role="button" data-toggle="collapse" aria-expanded="true" aria-controls="methodThree">Pay with MegaCoin<span class="accordion-indicator"><i data-feather="chevron-up"></i></span></a></h3>
+                      </div>
+                      <div class="collapse" id="methodThree" data-parent="#methods">
+                        <div class="card-body font-size-md">
+                          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Submit request-->
+                  <section class="container text-center pt-5 mt-2">
+                    <h2 class="h4 pb-3">Haven't found the answer? We can help.</h2><i class="czi-help h3 text-primary d-block mb-4"></i><a class="btn btn-primary" href="help-submit-request.html">Submit a request</a>
+                    <p class="font-size-sm pt-4">Contact us and we’ll get back to you as soon as possible.</p>
+                  </section>
+                </div>
+              </div>
+            </div>
+
+            <!-- Footer-->
+            <footer class="bg-dark pt-5">
+              <div class="container">
+                <div class="row pb-2">
+                  <div class="col-md-4 col-sm-6">
+                    <div class="widget widget-links widget-light pb-2 mb-4">
+                      <h3 class="widget-title text-light">Shop Departments</h3>
+                      <ul class="widget-list">
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Medicine</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Medical Equipment & Supplies</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Beauty & Health</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Baby Products</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Consumables & Disposables</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Dietry / Nutritional Supplements</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="shop-categories.html">Full Store Directory</a></li>
+                      </ul>
+                    </div>
+                    <div class="widget widget-links widget-light pb-2 mb-4">
+                      <h3 class="widget-title text-light">Explore</h3>
+                      <ul class="widget-list">
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Prime Vendors</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Blogs and Articles</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">MMX Social</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Podcasts</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6">
+                    <div class="widget widget-links widget-light pb-2 mb-4">
+                      <h3 class="widget-title text-light">Account & Shipping info</h3>
+                      <ul class="widget-list">
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Your account</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Shipping rates & policies</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Refunds & replacements</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Order tracking</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Delivery info</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Taxes & fees</a></li>
+                      </ul>
+                    </div>
+                    <div class="widget widget-links widget-light pb-2 mb-4">
+                      <h3 class="widget-title text-light">About us</h3>
+                      <ul class="widget-list">
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">About Company</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Our Team</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">Careers</a></li>
+                        <li class="widget-list-item"><a class="widget-list-link" href="#">News</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="widget pb-2 mb-4">
+                      <h3 class="widget-title text-light pb-1">Stay Informed</h3>
+                      <form class="validate" action="https://studio.us12.list-manage.com/subscribe/post-json?u=c7103e2c981361a6639545bd5&amp;amp;id=29ca296126&amp;c=?" method="get" name="mc-embedded-subscribe-form" id="mc-embedded-subscribe-form">
+                        <div class="input-group input-group-overlay flex-nowrap">
+                          <div class="input-group-prepend-overlay"><span class="input-group-text text-muted font-size-base"><i class="czi-mail"></i></span></div>
+                          <input class="form-control prepended-form-control" type="email" name="EMAIL" id="mce-EMAIL" value="" placeholder="Your email" required>
+                          <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit" name="subscribe" id="mc-embedded-subscribe">Subscribe*</button>
+                          </div>
+                        </div>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                          <input type="text" name="b_c7103e2c981361a6639545bd5_29ca296126" tabindex="-1">
+                        </div><small class="form-text text-light opacity-50" id="mc-helper">*Subscribe to our newsletter to receive early discount offers, updates and new products info.</small>
+                        <div class="subscribe-status"></div>
+                      </form>
+                    </div>
+                    <div class="widget pb-2 mb-4">
+                      <h3 class="widget-title text-light pb-1">Download our app</h3>
+                      <div class="d-flex flex-wrap">
+                        <div class="mr-2 mb-2"><a class="btn-market btn-apple" href="#" role="button"><span class="btn-market-subtitle">Download on the</span><span class="btn-market-title">App Store</span></a></div>
+                        <div class="mb-2"><a class="btn-market btn-google" href="#" role="button"><span class="btn-market-subtitle">Download on the</span><span class="btn-market-title">Google Play</span></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pt-5 bg-darker">
+                <div class="container">
+                  <div class="row pb-3">
+                    <div class="col-md-3 col-sm-6 mb-4">
+                      <div class="media"><i class="czi-rocket text-warning" style="font-size: 2.25rem;"></i>
+                        <div class="media-body pl-3">
+                          <h6 class="font-size-base text-light mb-1">Just-In-Time Delivery</h6>
+                          <p class="mb-0 font-size-ms text-light opacity-50">24hrs delivery for orders before 4PM</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                      <div class="media"><i class="czi-currency-exchange text-warning" style="font-size: 2.25rem;"></i>
+                        <div class="media-body pl-3">
+                          <h6 class="font-size-base text-light mb-1">Money back Guarantee</h6>
+                          <p class="mb-0 font-size-ms text-light opacity-50">We return money within 30 days</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                      <div class="media"><i class="czi-support text-warning" style="font-size: 2.25rem;"></i>
+                        <div class="media-body pl-3">
+                          <h6 class="font-size-base text-light mb-1">24/7 Customer Support</h6>
+                          <p class="mb-0 font-size-ms text-light opacity-50">Friendly 24/7 customer support</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                      <div class="media"><i class="czi-card text-warning" style="font-size: 2.25rem;"></i>
+                        <div class="media-body pl-3">
+                          <h6 class="font-size-base text-light mb-1">Secure Online Payment</h6>
+                          <p class="mb-0 font-size-ms text-light opacity-50">We possess SSL / Secure сertificate</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="hr-light pb-4 mb-3">
+                  <div class="row pb-2">
+                    <div class="col-md-6 text-center text-md-left mb-4">
+                      <div class="text-nowrap mb-4">
+                        <a class="d-inline-block align-middle mt-n1 mr-3" href="#"><img class="d-block" width="117" src="img/footer-logo-light.png" alt="MegaMedx - Mega Healthcare Limited"/>
+                        </a>
+                        <div class="btn-group dropdown disable-autohide">
+                          <button class="btn btn-outline-light border-light btn-sm dropdown-toggle px-2" type="button" data-toggle="dropdown"><img class="mr-2" width="20" src="img/flags/en.png" alt="English"/>Eng / ₦
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                              <select class="custom-select custom-select-sm">
+                                <option value="NGN">₦ NGN</option>
+                                <option value="usd">₦ USD</option>
+                              </select>
+                            </li>
+                            <li>
+                              <a class="dropdown-item pb-1" href="#"><img class="mr-2" width="20" src="img/flags/fr.png" alt="Français"/>Français</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item pb-1" href="#"><img class="mr-2" width="20" src="img/flags/de.png" alt="Deutsch"/>Deutsch</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"><img class="mr-2" width="20" src="img/flags/it.png" alt="Italiano"/>Italiano</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="widget widget-links widget-light">
+                        <ul class="widget-list d-flex flex-wrap justify-content-center justify-content-md-start">
+                          <li class="widget-list-item mr-4"><a class="widget-list-link" href="#">Our Warehouses</a></li>
+                          <li class="widget-list-item mr-4"><a class="widget-list-link" href="#">Become a Seller</a></li>
+                          <li class="widget-list-item mr-4"><a class="widget-list-link" href="#">Support</a></li>
+                          <li class="widget-list-item mr-4"><a class="widget-list-link" href="#">Privacy</a></li>
+                          <li class="widget-list-item mr-4"><a class="widget-list-link" href="#">Terms of use</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-right mb-4">
+                      <div class="mb-3">
+                        <a class="social-btn sb-light sb-twitter ml-2 mb-2" href="#"><i class="czi-twitter"></i></a>
+                        <a class="social-btn sb-light sb-facebook ml-2 mb-2" href="#"><i class="czi-facebook"></i></a>
+                        <a class="social-btn sb-light sb-instagram ml-2 mb-2" href="#"><i class="czi-instagram"></i></a>
+                        <a class="social-btn sb-light sb-pinterest ml-2 mb-2" href="#"><i class="czi-linkedin"></i></a>
+                        <a class="social-btn sb-light sb-youtube ml-2 mb-2" href="#"><i class="czi-youtube"></i></a>
+                      </div>
+                      <img class="d-inline-block" width="187" src="img/cards-alt.png" alt="Payment methods"/>
+                    </div>
+                  </div>
+                  <div class="pb-4 font-size-xs text-light opacity-50 text-center text-md-left">© All rights reserved. Mega Healthcare Limited</a></div>
+                </div>
+              </div>
+            </footer>
+            <!-- Toolbar for handheld devices-->
+            <div class="cz-handheld-toolbar">
+              <div class="d-table table-fixed w-100">
+                <a class="d-table-cell cz-handheld-toolbar-item" href="account-wishlist.html">
+                  <span class="cz-handheld-toolbar-icon"><i class="czi-heart"></i></span>
+                  <span class="cz-handheld-toolbar-label">Wishlist</span>
+                </a>
+                <a class="d-table-cell cz-handheld-toolbar-item" href="#navbarCollapse" data-toggle="collapse" onclick="window.scrollTo(0, 0)">
+                  <span class="cz-handheld-toolbar-icon"><i class="czi-menu"></i></span>
+                  <span class="cz-handheld-toolbar-label">Menu</span>
+                </a>
+                <a class="d-table-cell cz-handheld-toolbar-item" href="shop-cart.html">
+                  <span class="cz-handheld-toolbar-icon">
+                    <i class="czi-cart"></i>
+                    <span class="badge badge-primary badge-pill ml-1">4</span>
+                  </span>
+                  <span class="cz-handheld-toolbar-label">₦265.00</span>
+                </a>
+              </div>
+            </div>
+            <!-- Back To Top Button-->
+            <a class="btn-scroll-top" href="#top" data-scroll>
+              <span class="btn-scroll-top-tooltip text-muted font-size-sm mr-2">Top</span>
+              <i class="btn-scroll-top-icon czi-arrow-up"></i>
+            </a>
+            <!-- JavaScript libraries, plugins and custom scripts-->
+            <script src="js/vendor.min.js"></script>
+            <script src="js/theme.min.js"></script>
+          </body>
+          </html>

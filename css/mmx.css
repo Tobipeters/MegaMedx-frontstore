@@ -1,0 +1,85 @@
+/*
+MegaMedx Styleshee
+Nativebrands Digital Agency
+Remarks: Sowemimo Bamidele;
+*/
+
+body{
+	background-color: #f1f1f1 !important;
+}
+
+.bg-mmx{ background-color: #205c80 !important; }
+.bg-blue{ background-color: #0063d1 !important; }
+.grey-bg{ background-color: #ecfbf4  !important; }
+
+.main-slider{
+	height: 530px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+.icon-2x{
+	font-size: 20px;
+	position: relative;
+	bottom: 2px;
+	margin-right: 5px;
+}
+
+/*Navigation Menu*/
+.cat-icon{
+	width: 1.5em;
+	margin-right: 4px;
+}
+
+@media (min-width: 991px) {
+	.cat-dropdown{
+		width: 310px;
+	}
+
+	.cat-dropdown a{
+		/*font-size: 14px;*/
+	}
+}
+
+.top-home-cats img{
+	border-radius: 50em !important;
+    border: 8px solid #205c80;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.top-home-cats img:hover{
+	border: 8px solid #0063d1;
+}
+
+.slider-bg{
+	background: url(../img/mmx-pattern-1.png);
+}
+
+.download-app{
+	background-color: rgba(0, 99, 209, 0.75) !important;
+}
+
+.page-title-overlap{
+	background: url(../img/mmx-pattern.jpg);
+}
+
+.cz-sidebar, .cz-sidebar-static{
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.bg-green{
+    background-color: #a5e8cb !important;
+}
+
+.strikethrough{
+	text-decoration: line-through;
+}
+
+@media screen and (max-width: 425px) {
+	#fw-mobile{
+		display: block !important;
+	}
+}
