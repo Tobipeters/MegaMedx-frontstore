@@ -1178,7 +1178,7 @@
                         </div>
                     </a>
                     <!-- Step: active, current -->
-                    <a id="second-step" href="prime-vendor-contact.html" class="step-item current">
+                    <a id="second-step" href="prime-vendor-contact.html" class="step-item current active">
                         <div class="step-progress">
                             <span class="step-count">2</span>
                         </div>
@@ -1193,50 +1193,49 @@
             <div class="col-md-3"></div>
         </div>
 
-        <!-- Business Information step one  -->
-        <div id="step-one-div" class="container pt-1 pb-4">
-            <h3 class="py-4">Business Information</h3>
+
+        <!-- Contact Person step two -->
+        <div id="step-two-div" class="container pt-1 pb-4">
+            <h3 class="py-4">Contact Person</h3>
             <form>
-                <div class="form-group">
-                    <label for="business-name">Business Name</label>
-                    <input class="form-control" type="text" id="business-name" placeholder="">
-                </div>
-                <div class="form-group">
-                    <label for="about-business">About Business</label>
-                    <textarea class="form-control" id="about-business" rows="5"></textarea>
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <label for="first-name">First Name:</label>
+                        <input class="form-control" type="text" id="first-name" placeholder="" required>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label for="last-name">Last Name:</label>
+                        <input class="form-control" type="text" id="last-name" placeholder="" required>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 form-group">
-                        <label for="email-address">Email Address</label>
+                        <label for="email-address">Email Address:</label>
                         <input class="form-control" type="text" id="email-address" placeholder="" required>
                     </div>
                     <div class="col-md-6 form-group">
-                        <label for="phone-number">Phone Number</label>
+                        <label for="phone-number">Phone Number:</label>
                         <input class="form-control" type="text" id="phone-number" placeholder="" required>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="business-address">Business <Address></Address></label>
-                    <textarea class="form-control" id="business-address" rows="5"></textarea>
+                    <label for="position">Position in Business:</label>
+                    <input class="form-control" type="text" id="position" placeholder="">
                 </div>
+                <!-- File input -->
                 <div class="form-group">
-                    <label for="country">Country</label>
-                    <input class="form-control" type="text" id="country" placeholder="">
+                    <label for="file-input">Photo:</label>
+                    <div class="custom-file">
+                        <input class="custom-file-input" type="file" id="file-input">
+                        <label class="custom-file-label" for="file-input">Choose file...</label>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <label for="state">State</label>
-                        <input class="form-control" type="text" id="state" placeholder="" required>
-                    </div>
-                    <div class="col-md-6 form-group">
-                        <label for="city">City</label>
-                        <input class="form-control" type="text" id="city" placeholder="" required>
-                    </div>
+                <div class="d-flex justify-content-between">
+                    <a href="prime-vendor-signup.html" class="btn btn btn-primary">Previous</a>
+                    <a class="btn btn btn-primary">Submit</a>
                 </div>
             </form>
-            <a class="btn btn btn-primary float-right" href="prime-vendor-contact.html">Next</a>
         </div>
-
 
     </div>
 
