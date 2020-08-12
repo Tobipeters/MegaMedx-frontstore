@@ -1139,22 +1139,12 @@
     <!-- track other header  -->
     <div class="page-title-overlap bg-dark pt-4">
         <div class="container d-lg-flex justify-content-between py-2 py-lg-3">
-            <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
-                <nav aria-label="breadcrumb">
-                    <ol
-                        class="breadcrumb breadcrumb-light flex-lg-nowrap justify-content-center justify-content-lg-start">
-                        <li class="breadcrumb-item"><a class="text-nowrap" href="index.html"><i
-                                    class="czi-home"></i>Home</a></li>
-                        <li class="breadcrumb-item text-nowrap active" aria-current="page">Track Your Order</li>
-                    </ol>
-                </nav>
-            </div>
             <div class="order-lg-1 pr-lg-4 text-center text-lg-left">
-                <h1 class="h3 text-light mb-0">Register As prime Vendor</h1>
+                <h1 class="h3 text-light mb-0">Become a Suppliers</h1>
                 <nav aria-label="breadcrumb pv-breadcrum py-2">
                     <ol class="breadcrumb breadcrumb-light">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Become a Prime Vendor</a></li>
+                        <li class="breadcrumb-item"><a href="#">Become a Supplier</a></li>
                     </ol>
                 </nav>
             </div>
@@ -1166,40 +1156,112 @@
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                <h3 class=" text-center">Prime Vendor - Complete Registration</h3>
-                <p class="text-center">MegaMedX platform connects us with best global practices where the end to end
-                    distribution of
+                <h3 class=" text-center">Become a Supplier</h3>
+                <p class="text-center">
+                    MegaMedX platform connects us with best global practices where the end to end distribution of
                     registered Pharma products
                     and medical equipment is transparent and automated, enabling accountability and engendering patient
                     safety.
                 </p>
-                <!-- Steps dark skin  -->
-                <div class="steps steps-dark my-3">
-                    <!-- Step: active -->
-                    <a href="prime-vendor-signup.html" class="step-item active">
-                        <div class="step-progress">
-                            <span class="step-count">1</span>
-                        </div>
-                        <div class="step-label">
-                            Business Information
-                        </div>
-                    </a>
-                    <!-- Step: active, current -->
-                    <a href="#" class="step-item active current">
-                        <div class="step-progress">
-                            <span class="step-count">2</span>
-                        </div>
-                        <div class="step-label">
-                            Contact Person
-                        </div>
-                    </a>
 
-                </div>
             </div>
 
             <div class="col-md-3"></div>
         </div>
+
+        <!-- Select category -->
         <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="text-center">
+                    <h6> Select Category</h6>
+                    <p class="font-size-sm">Please select which of the categories below best describe you or your
+                        organization</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card border-0 box-shadow text-center py-2 px-5">
+                    <div class="card-body">
+                        <div>
+                            <img src="img/profile-user 1.png" width="40" />
+                            <h6 class="card-title font-weight-medium">University Clinics</h6>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-primary mt-4">Continue</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Steps dark skin  -->
+        <!-- <div class="steps steps-dark my-3">
+   
+            <a onclick="displayBusinessInfo()" class="step-item active">
+                <div class="step-progress">
+                    <span class="step-count">1</span>
+                </div>
+                <div class="step-label">
+                    Business Information
+                </div>
+            </a>
+           
+            <a id="second-step" onclick="displayPersonContact()" class="step-item current">
+                <div class="step-progress">
+                    <span class="step-count">2</span>
+                </div>
+                <div class="step-label">
+                    Contact Person
+                </div>
+            </a>
+
+        </div> -->
+
+        <!-- Business Information step one  -->
+        <!-- <div id="step-one-div" class="container py-5">
+            <h3 class="py-4">Business Information</h3>
+            <form>
+                <div class="form-group">
+                    <label for="business-name">Business Name</label>
+                    <input class="form-control" type="text" id="business-name" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="about-business">About Business</label>
+                    <textarea class="form-control" id="about-business" rows="5"></textarea>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <label for="email-address">Email Address</label>
+                        <input class="form-control" type="text" id="email-address" placeholder="" required>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label for="phone-number">Phone Number</label>
+                        <input class="form-control" type="text" id="phone-number" placeholder="" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="business-address">Business <Address></Address></label>
+                    <textarea class="form-control" id="business-address" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <input class="form-control" type="text" id="country" placeholder="">
+                </div>
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <label for="state">State</label>
+                        <input class="form-control" type="text" id="state" placeholder="" required>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label for="city">City</label>
+                        <input class="form-control" type="text" id="city" placeholder="" required>
+                    </div>
+                </div>
+            </form>
+            <a class="btn btn btn-primary float-right" onclick="displayPersonContact()">Next</a>
+        </div> -->
+
+        <!-- Contact Person step two -->
+        <!-- <div id="step-two-div" class="container py-5" style="display: none;"> 
             <h3 class="py-4">Contact Person</h3>
             <form>
                 <div class="row">
@@ -1226,7 +1288,7 @@
                     <label for="position">Position in Business:</label>
                     <input class="form-control" type="text" id="position" placeholder="">
                 </div>
-                <!-- File input -->
+               
                 <div class="form-group">
                     <label for="file-input">Photo:</label>
                     <div class="custom-file">
@@ -1235,11 +1297,11 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-between">
-                    <a href="prime-vendor-signup.html" class="btn btn btn-primary">Previous</a>
-                    <a href="prime-vendor-personal.html" class="btn btn btn-primary">Submit</a>
+                    <a onclick="displayBusinessInfo()" class="btn btn btn-primary">Previous</a>
+                    <a class="btn btn btn-primary">Submit</a>
                 </div>
             </form>
-        </div>
+        </div> -->
 
     </div>
 
@@ -1480,6 +1542,7 @@
         <i class="btn-scroll-top-icon czi-arrow-up"></i>
     </a>
     <!-- JavaScript libraries, plugins and custom scripts-->
+    <script src="js/main.js"></script>
     <script src="js/vendor.min.js"></script>
     <script src="js/theme.min.js"></script>
 </body>
