@@ -23,8 +23,8 @@
     <!-- Main Theme Styles + Bootstrap-->
     <link rel="stylesheet" media="screen" id="main-styles" href="css/theme.min.css">
     <!-- Google Tag Manager-->
-</head>
-<!-- Body-->
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/custom.css" </head> <!-- Body-->
 
 <body class="toolbar-enabled" style="background-color: #fff !important;">
     <!-- Sign in / sign up modal-->
@@ -246,6 +246,84 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Terms and condition modal -->
+    <div class="modal fade " id="terms" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+            <div class="modal-content border-0">
+                <div class="modal-header bg-blue px-5">
+                    <h5 class="modal-title ">Terms and Conditions</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body px-5">
+                    <h6>Header One</h6>
+                    <uL class="pl-3">
+                        <li class="">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam,
+                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                            explicabo.
+                        </li>
+                        <li class="">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam,
+                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                            explicabo.
+                        </li>
+                        <li class="">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam,
+                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                            explicabo.
+                        </li>
+                        <li class="">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam,
+                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                            explicabo.
+                        </li>
+                        <li class="">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam,
+                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                            explicabo.
+                        </li>
+                        <li class="">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam,
+                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                            explicabo.
+                        </li>
+                        <li class="">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam,
+                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                            explicabo.
+                        </li>
+                        <li class="">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam,
+                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                            explicabo.
+                        </li>
+                        <li class="">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam,
+                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                            explicabo.
+                        </li>
+
+                    </uL>
+                </div>
+                <div class="modal-footer px-5 border-top-0 justify-content-start">
+                    <button type="button" class="btn btn-primary mr-3">Accept</button>
+                    <button type="button" class="btn btn-danger " data-dismiss="modal">Decline</button>
+
                 </div>
             </div>
         </div>
@@ -1188,7 +1266,7 @@
                 </a>
 
                 <!-- Step: active, current -->
-                <a href="supplier-signup-2.html" class="step-item  current">
+                <a href="supplier-signup-2.html" class="step-item active current">
                     <div class="step-progress">
                         <span class="step-count">2</span>
                     </div>
@@ -1198,7 +1276,7 @@
                 </a>
 
                 <!-- Step -->
-                <a href="supplier-signup-3.html" class="step-item">
+                <a href="supplier-signup-3.html" class="step-item active current">
                     <div class="step-progress">
                         <span class="step-count">3</span>
                     </div>
@@ -1208,7 +1286,7 @@
                 </a>
 
                 <!-- Step -->
-                <a href="supplier-signup-4.html" class="step-item">
+                <a href="supplier-signup-4.html" class="step-item active current">
                     <div class="step-progress">
                         <span class="step-count">4</span>
                     </div>
@@ -1217,7 +1295,7 @@
                     </div>
                 </a>
                 <!-- Step -->
-                <a href="supplier-signup-5.html" class="step-item">
+                <a href="supplier-signup-5.html" class="step-item active current">
                     <div class="step-progress">
                         <span class="step-count">5</span>
                     </div>
@@ -1226,46 +1304,62 @@
                     </div>
                 </a>
             </div>
-            <h3 class="py-4 font-weight-medium">Business Information</h3>
-            <form>
-                <div class="form-group">
-                    <label for="business-name">Business Name</label>
-                    <input class="form-control" type="text" id="business-name" placeholder="">
-                </div>
-                <div class="form-group">
-                    <label for="about-business">About Business</label>
-                    <textarea class="form-control" id="about-business" rows="5"></textarea>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <label for="email-address">Email Address</label>
-                        <input class="form-control" type="text" id="email-address" placeholder="" required>
+            <h3 class="py-4 font-weight-medium">Select a Warehouse</h3>
+
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item pl-0">
+                    <span class="pb-2">Location 1</span>
+                    <div class="custom-control custom-checkbox">
+                        <input class="custom-control-input" type="checkbox" id="ex-check-1">
+                        <label class="custom-control-label  for=" ex-check-1">
+                            <span class="font-weight-medium font-size-lg"> National Warehouse </span>
+                            <br />
+                            <small>123, Lagos Street, Lagos State, Nigeria</small>
+                        </label>
                     </div>
-                    <div class="col-md-6 form-group">
-                        <label for="phone-number">Phone Number</label>
-                        <input class="form-control" type="text" id="phone-number" placeholder="" required>
+                </li>
+                <li class="list-group-item pl-0">
+                    <span class="pb-2">Location 1</span>
+                    <div class="custom-control custom-checkbox">
+                        <input class="custom-control-input" type="checkbox" id="ex-check-1">
+                        <label class="custom-control-label  for=" ex-check-1">
+                            <span class="font-weight-medium font-size-lg"> National Warehouse </span>
+                            <br />
+                            <small>123, Lagos Street, Lagos State, Nigeria</small>
+                        </label>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="business-address">Business <Address></Address></label>
-                    <textarea class="form-control" id="business-address" rows="5"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="country">Country</label>
-                    <input class="form-control" type="text" id="country" placeholder="">
-                </div>
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <label for="state">State</label>
-                        <input class="form-control" type="text" id="state" placeholder="" required>
+                </li>
+                <li class="list-group-item pl-0">
+                    <span class="pb-2">Location 1</span>
+                    <div class="custom-control custom-checkbox">
+                        <input class="custom-control-input" type="checkbox" id="ex-check-1">
+                        <label class="custom-control-label  for=" ex-check-1">
+                            <span class="font-weight-medium font-size-lg"> National Warehouse </span>
+                            <br />
+                            <small>123, Lagos Street, Lagos State, Nigeria</small>
+                        </label>
                     </div>
-                    <div class="col-md-6 form-group">
-                        <label for="city">City</label>
-                        <input class="form-control" type="text" id="city" placeholder="" required>
-                    </div>
-                </div>
-            </form>
-            <a class="btn btn btn-primary float-right mt-4" href="supplier-signup-2.html">Next</a>
+                </li>
+
+            </ul>
+
+            <div class="d-flex justify-content-between mt-5">
+                <a class="btn btn btn-primary " href="supplier-signup-4.html">Previous</a>
+                <a class="btn btn btn-primary " href="#">Finish</a>
+
+            </div>
+            <!-- terms and condition -->
+            <div class="d-flex justify-content-end py-3 font-size-sm">
+                <span>
+                    By clicking "Finish" you accept the
+                    <a data-toggle="modal" href="#terms" style="color: blue; text-decoration: underline;">Terms and
+                        Conditions</a>
+                    MegaMedX
+                </span>
+            </div>
+
+
+
         </div>
     </div>
     </div>

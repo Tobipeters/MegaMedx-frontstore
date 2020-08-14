@@ -1,0 +1,26 @@
+/* Terms and condiotion header styling */
+.bg-blue{
+        background-color: #0063d1;
+        color: #fff;
+}
+.bg-blue>h5, .bg-blue button>span{
+       color: #fff !important;
+}
+/* Auction card addition styling */
+.auc-cd-hidden{
+        width: 40% !important;
+}
+.auct-cd-btn-bid{
+        background: #0D8E0B !important;
+        border-color:#0D8E0B !important;
+        color: #fff !important;
+}
+.auct-cd-btn-cart{
+        background: #0063D1 !important;
+        border-color: #0063D1 !important;
+        color: #fff !important;
+}
+/* Rental section styling */
+.rental-sect{
+        background: #DAE7DA;
+}
