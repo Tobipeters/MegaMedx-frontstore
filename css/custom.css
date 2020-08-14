@@ -32,3 +32,7 @@
         border-top-right-radius: 0 !important;
          border-top-left-radius: 0 !important;
 }
+/* buyer's dashboard */
+.sect-head{
+        background: #F1F1F1;
+}
