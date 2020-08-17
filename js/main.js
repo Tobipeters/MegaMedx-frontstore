@@ -3,7 +3,7 @@ var alertDiv = document.getElementById("time-left")
 //console.log(alertDiv)
 const x = () => {
     setInterval(function () {
-        var deadline = new Date('Sun aug 15  2020 11:00:08').getTime()
+        var deadline = new Date('Mon Aug 24  2020 11:00:08').getTime()
         var now = new Date().getTime()
         var timeLeft = deadline - now
         var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
@@ -22,22 +22,5 @@ const x = () => {
 }
 
 x();
-//Stepper functionalities for Prime vendor sign up
-var secondStep = document.getElementById('second-step')
-var secondStepDiv = document.getElementById('step-two-div')
-var firstStepDiv = document.getElementById("step-one-div")
-//business information
-displayPersonContact = () => {
-    secondStep.className += " active";
-    firstStepDiv.style.display = "none"
-    secondStepDiv.style.display = "block"
-    // console.log(secondStepDiv)
-}
-displayBusinessInfo = () => {
-    secondStep.classList.remove("active")
-    secondStepDiv.style.display = "none"
-    firstStepDiv.style.display = "block"
 
-    // console.log(secondStepDiv)
-}
 

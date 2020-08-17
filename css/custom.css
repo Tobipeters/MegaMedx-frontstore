@@ -20,6 +20,10 @@
         border-color: #0063D1 !important;
         color: #fff !important;
 }
+.bg-faint-green{
+        background: #DAE7DA;
+}
+
 /* Rental section styling */
 .rental-sect{
         background: #DAE7DA;
@@ -32,7 +36,51 @@
         border-top-right-radius: 0 !important;
          border-top-left-radius: 0 !important;
 }
+
+/* Deal products styling */
+
+.product-floating-btn{
+        opacity: 1 !important;
+        right: 1.2rem !important;
+}
+
+
 /* buyer's dashboard */
+
 .sect-head{
         background: #F1F1F1;
+}
+
+/* supplier Directory styling */
+.sup-dir-wishlist{
+    padding: 0 !important;
+    padding-top: .2rem !important;
+    position: absolute;
+    top: .75rem;
+    right: .75rem;
+    z-index: 5;
+    border: 0;
+    border-radius: 50% !important;
+    background-color: #f3f5f9;
+    color: #373f50;
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+}
+.sd-card-body{
+    background: #f1f1f1;
+}
+
+/* Product Category styling */
+.pr-cg-card{
+        background: #E7EEFF;
+}
+.pr-cg-heading{
+        position: absolute;
+        bottom: .5rem;
+        left: 2.5rem;
+}
+.pr-cg-card  .list-group-item{
+        background: transparent !important;
+        border-bottom-color: #0063d14f;
 }
