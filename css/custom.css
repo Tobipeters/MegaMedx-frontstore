@@ -50,6 +50,16 @@
 .sect-head{
         background: #F1F1F1;
 }
+/* buyer dashboard >> single rental */
+.red-text{
+        color: #FF0000;
+}
+.red-btn{
+        background: #FF0000 !important;
+}
+.s-r-gallery .cz-thumblist-item{
+        height: auto !important;
+}
 
 /* supplier Directory styling */
 .sup-dir-wishlist{
