@@ -23,11 +23,8 @@
     <!-- Main Theme Styles + Bootstrap-->
     <link rel="stylesheet" media="screen" id="main-styles" href="css/theme.min.css">
     <!-- Google Tag Manager-->
-    <!-- custom styling  -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
-    <!-- Font Awesome -->
-    <link href="fontawesome/css/all.css" rel="stylesheet">
-    <script defer src="fontawesome/js/all.js"></script>
 </head>
 <!-- Body-->
 
@@ -255,6 +252,67 @@
             </div>
         </div>
     </div>
+    <!-- Campaign Summary Modal -->
+    <div class="modal fade " id="summary" tabindex="-1" role="dialog">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content border-0">
+                <div class="modal-header bg-blue px-4">
+                    <h5 class="modal-title ">Campaign Summary</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body px-0">
+                    <div class="row px-4">
+                        <div class="col-md-6">
+                            <img src="img/hp.png" class="rounded-lg" alt="ads-banner" />
+                        </div>
+                        <div class="col-md-6 d-flex align-self-center">
+                            <span>Lagos Pharmacy Launch Ad</span>
+                        </div>
+                    </div>
+                    <hr class="my-4" />
+                    <div class="px-4">
+                        <div class="d-flex justify-content-between mb-5">
+                            <span>Demographics</span>
+                            <span class="font-weight-medium">Search, Featured, Homepage</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-5">
+                            <span>Starting Date</span>
+                            <span class="font-weight-medium">04/08/2020</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-5">
+                            <span>Endimg Date</span>
+                            <span class="font-weight-medium">04/08/2020</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-5">
+                            <span>Ad Link</span>
+                            <span class="font-weight-medium">https://mmxmobile.com/newad</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-5">
+                            <span>Expected Research</span>
+                            <span class="font-weight-medium">22,000</span>
+                        </div>
+                    </div>
+                    <hr class="my-4" />
+                    <div class="border-top-0 px-4">
+                        <div class="d-flex justify-content-between pt-5 pb-3 mb-5">
+                            <span>TOTAL COST</span>
+                            <h3 class="font-weight-medium mb-0">172,000</h3>
+                        </div>
+                        <div class="d-flex py-2 justify-content-center">
+                            <a type="button" class="btn btn-primary ">Proceed to Checkout</a>
+                        </div>
+                        <div class="d-flex py-2 justify-content-center">
+                            <a class="btn btn-light" data-dismiss="modal">Cancel </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <!-- Header Starts -->
     <header class="box-shadow-sm">
         <!-- Topbar-->
@@ -464,11 +522,9 @@
                         </div>
                         <!-- Departments menu-->
                         <ul class="navbar-nav mega-nav pr-lg-2 mr-lg-2">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle pl-0" href="#" data-toggle="dropdown">
-                                    <i class="czi-menu align-middle mt-n1 mr-2"></i>
-                                    Departments
-                                </a>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle pl-0" href="#"
+                                    data-toggle="dropdown"><i
+                                        class="czi-menu align-middle mt-n1 mr-2"></i>Departments</a>
                                 <ul class="dropdown-menu cat-dropdown">
                                     <li class="dropdown mega-dropdown"><a class="dropdown-item dropdown-toggle" href="#"
                                             data-toggle="dropdown"><img src="img/medicine.svg" class="cat-icon">
@@ -1143,93 +1199,273 @@
     <!--/ Header Ends -->
 
     <!-- Page Title (Shop)-->
-    <div class="page-title-overlap bg-dark py-5">
-        <div class="container d-lg-flex justify-content-between pt-3 pb-5 mb-5">
+    <div class="page-title-overlap bg-dark pt-4">
+        <div class="container d-lg-flex justify-content-between py-2 py-lg-3">
             <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
                 <nav aria-label="breadcrumb">
                     <ol
                         class="breadcrumb breadcrumb-light flex-lg-nowrap justify-content-center justify-content-lg-start">
-                        <li class="breadcrumb-item"><a class="text-nowrap" href="index.html"><i
-                                    class="czi-home"></i>Home</a>
-                        </li>
-                        <li class="breadcrumb-item text-nowrap active" aria-current="page">Product Types</li>
+                        <li class="breadcrumb-item">
+                            <a class="text-nowrap" href="index.html">
+                                <i class="czi-home"></i>Home</a></li>
+                        <li class="breadcrumb-item text-nowrap text-light ">Account</li>
+                        <li class="breadcrumb-item text-nowrap active" aria-current="page">Create Ads</li>
                     </ol>
                 </nav>
             </div>
             <div class="order-lg-1 pr-lg-4 text-center text-lg-left">
-                <h1 class="h3 text-light mb-0">Product Types</h1>
+                <h1 class="h3 text-light mb-0">Create Ads</h1>
             </div>
         </div>
     </div>
     <!-- Page Content-->
-    <div class="bg-light">
-        <div class="container py-5">
-            <div class="row my-3">
-                <div class="col-md-4 ">
-                    <a href="#" class="btn d-flex justify-content-between p-3 border border-info rounded mb-4 ">
-                        <span>Wines and Spirits (34)</span>
-                        <i class="fa fa-arrow-right font-size-lg pt-1"></i>
-                    </a>
+    <div class="container pb-5 mb-2 mb-md-4">
+        <div class="row">
+            <!-- Sidebar-->
+            <aside class="col-lg-4 pr-0">
+                <!-- Sidebar-->
+                <div class="cz-sidebar-static rounded-lg box-shadow-lg px-0 pb-0 mb-5 mb-lg-0">
+                    <div class="px-4 mb-4">
+                        <div class="media align-items-center">
+                            <div class="img-thumbnail rounded-circle position-relative" style="width: 6.375rem;">
+                                <span class="badge badge-warning" data-toggle="tooltip" title=""
+                                    data-original-title="Megacoin">
+                                    MX500
+                                </span>
+                                <img class="rounded-circle" src="img/avatar1.png" alt="Susan Gardner"></div>
+                            <div class="media-body pl-3">
+                                <h3 class="font-size-base mb-0">Morphet Pharmacy</h3>
+                                <span class="text-accent font-size-sm">morphetpharmacy@gmail.com</span>
+                                <p class="text-muted font-size-sm mb-0 mt-2">PHARMACY</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sect-head px-4 py-3">
+                        <h3 class="font-size-sm mb-0 text-muted">Main</h3>
+                    </div>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-0">
+                            <a class="nav-link-style d-flex align-items-center  px-4 py-3" href="buyer-dashboard.html">
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="mb-0">
+                            <a class="nav-link-style d-flex align-items-center px-4 py-3" href="buyer-order.html">
+                                Orders
+                                <span class="font-size-sm text-muted ml-1"> (30) </span>
+                            </a>
+                        </li>
+                        <li class="mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3"
+                                href="account-tickets.html">
+                                My Purchase
+                                <span class="font-size-sm text-muted ml-1">(10)</span>
+                            </a>
+                        </li>
+                        <li class="mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3"
+                                href="account-tickets.html">
+                                Wishlists
+                                <span class="font-size-sm text-muted ml-1">(10)</span>
+                            </a>
+                        </li>
+                        <li class="mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3"
+                                href="account-tickets.html">
+                                Support Tickets
+                                <!-- <span class="font-size-sm text-muted ml-1">(10)</span> -->
+                            </a>
+                        </li>
+                        <li class="mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3"
+                                href="account-tickets.html">
+                                MegaWallet
+                                <!-- <span class="font-size-sm text-muted ml-1">(10)</span> -->
+                            </a>
+                        </li>
+                        <li class="mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3"
+                                href="account-tickets.html">
+                                Messages
+                                <span class="font-size-sm text-muted ml-1">(3 New)</span>
+                            </a>
+                        </li>
+                        <li class="mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3"
+                                href="account-tickets.html">
+                                MMX Social
+                                <!-- <span class="font-size-sm text-muted ml-1">(10)</span> -->
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="sect-head px-4 py-3">
+                        <h3 class="font-size-sm mb-0 text-muted">Account Settings</h3>
+                    </div>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3"
+                                href="account-profile.html">
+                                Profile info
+                            </a>
+                        </li>
+                        <li class="mb-0">
+                            <a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-address.html">
+                                Addresses
+                            </a>
+                        </li>
+                        <li class="mb-0">
+                            <a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-payment.html">
+                                Payment Methods
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="sect-head px-4 py-3">
+                        <h3 class="font-size-sm mb-0 text-muted">Social Settings</h3>
+                    </div>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3 "
+                                href="account-profile.html">
+                                Social Profile
+                            </a>
+                        </li>
+                        <li class="mb-0">
+                            <a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-address.html">
+                                Privacy
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="sect-head px-4 py-3">
+                        <h3 class="font-size-sm mb-0 text-muted">Social Settings</h3>
+                    </div>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3 "
+                                href="account-profile.html">
+                                Activity Logs
+                            </a>
+                        </li>
+                        <li class="mb-0">
+                            <a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-address.html">
+                                Log Out
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-4 ">
-                    <a href="#" class="btn d-flex justify-content-between p-3 border border-info rounded mb-4 ">
-                        <span>Medical Equipment (34)</span>
-                        <i class="fa fa-arrow-right font-size-lg pt-1"></i>
-                    </a>
-                </div>
-                <div class="col-md-4 ">
-                    <a href="#" class="btn d-flex justify-content-between p-3 border border-info rounded mb-4">
-                        <span>Health and Beauty Aids (34)</span>
-                        <i class="fa fa-arrow-right font-size-lg pt-1"></i>
-                    </a>
+            </aside>
+            <!-- Content  -->
+            <section class="col-lg-8">
+
+
+
+                <!-- Products grid-->
+                <div class="mt-5  py-5">
+
+                    <div class="card pt-3 pb-4">
+                        <div class="card-header px-3 border-bottom py-2">
+                            <h5>ALL ADS</h5>
+                        </div>
+                        <div class="row card-body">
+                            <form class="col-md-7">
+                                <div class="form-group">
+                                    <label for="normal-input">Campaign Name</label>
+                                    <input class="form-control" type="text" id="normal-input" placeholder="">
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="col">
+                                        <label>Demographics 1</label>
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="col">
+                                        <label>Demographics 2</label>
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="col">
+                                        <label>Demographics 3</label>
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="col">
+                                        <label>Starting Date </label>
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="col">
+                                        <label>Ending Date</label>
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="file-input">Photo:</label>
+                                    <div class="custom-file">
+                                        <input class="custom-file-input" type="file" id="file-input">
+                                        <label class="custom-file-label" for="file-input">Choose file...</label>
+                                    </div>
+                                </div>
+
+                                <a data-toggle="modal" href="#summary" class="btn btn-primary">Create
+                                    Campaign
+                                </a>
+                            </form>
+                            <div class="col-md-5 text-dark">
+                                <div class="card border-0 box-shadow ">
+                                    <div class="py-2 px-3 border-bottom mb-4">
+                                        <p class="mb-0">Expected Result</p>
+                                    </div>
+                                    <div class="px-3 mb-5">
+                                        <p class="font-weight-normal mb-2">Demographics</p>
+                                        <div class="font-weight-medium">
+                                            <span class="mr-2">Pharmacy, </span>
+                                            <span class="mr-2">Lagos, </span>
+                                            <span class="mr-2">Homepage</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="px-3 mb-5">
+                                        <p class="font-weight-normal mb-2">Starting Date</p>
+                                        <div class="font-weight-medium">
+                                            <span class="mr-2">12/2/2010 </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="px-3 pb-3 border-bottom">
+                                        <p class="font-weight-normal mb-2">Ending Date</p>
+                                        <div class="font-weight-medium">
+                                            <span class="mr-2">12/2/2010 </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between pt-3 px-3 mb-5">
+                                        <div>
+                                            <p class="font-weight-normal font-size-md mb-2">Expected Cost</p>
+                                            <div class="font-weight-medium">
+                                                <h4 class="mb-0">₦172,000 </h4>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p class="font-weight-normal mb-2 font-size-md">Expected Research</p>
+                                            <div class="font-weight-medium">
+                                                <h4 class="mb-0">2139 </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
                 </div>
 
-                <div class="col-md-4 ">
-                    <a href="#" class="btn d-flex justify-content-between p-3 border border-info rounded mb-4 ">
-                        <span>Wines and Spirits (34)</span>
-                        <i class="fa fa-arrow-right font-size-lg pt-1"></i>
-                    </a>
-                </div>
-                <div class="col-md-4 ">
-                    <a href="#" class="btn d-flex justify-content-between p-3 border border-info rounded mb-4 ">
-                        <span>Medical Equipment (34)</span>
-                        <i class="fa fa-arrow-right font-size-lg pt-1"></i>
-                    </a>
-                </div>
-                <div class="col-md-4 ">
-                    <a href="#" class="btn d-flex justify-content-between p-3 border border-info rounded mb-4">
-                        <span>Health and Beauty Aids (34)</span>
-                        <i class="fa fa-arrow-right font-size-lg pt-1"></i>
-                    </a>
-                </div>
-
-                <div class="col-md-4 ">
-                    <a href="#" class="btn d-flex justify-content-between p-3 border border-info rounded mb-4 ">
-                        <span>Wines and Spirits (34)</span>
-                        <i class="fa fa-arrow-right font-size-lg pt-1"></i>
-                    </a>
-                </div>
-                <div class="col-md-4 ">
-                    <a href="#" class="btn d-flex justify-content-between p-3 border border-info rounded mb-4 ">
-                        <span>Medical Equipment (34)</span>
-                        <i class="fa fa-arrow-right font-size-lg pt-1"></i>
-                    </a>
-                </div>
-                <div class="col-md-4 ">
-                    <a href="#" class="btn d-flex justify-content-between p-3 border border-info rounded mb-4">
-                        <span>Health and Beauty Aids (34)</span>
-                        <i class="fa fa-arrow-right font-size-lg pt-1"></i>
-                    </a>
-                </div>
-            </div>
-
-
-
+            </section>
         </div>
     </div>
-
+    <!-- Toast: Added to Cart-->
+    <div class="toast-container toast-bottom-center">
+        <div class="toast mb-3" id="cart-toast" data-delay="5000" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header bg-success text-white"><i class="czi-check-circle mr-2"></i>
+                <h6 class="font-size-sm text-white mb-0 mr-auto">Added to cart!</h6>
+                <button class="close text-white ml-2 mb-1" type="button" data-dismiss="toast" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="toast-body">This item has been added to your cart.</div>
+        </div>
     </div>
-
 
     <!-- Footer-->
     <footer class="bg-dark pt-5">
