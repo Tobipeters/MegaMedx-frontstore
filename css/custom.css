@@ -52,7 +52,7 @@
 }
 /* buyer dashboard >> single rental */
 .red-text{
-        color: #FF0000;
+        color: #FF0000 !important;
 }
 .red-btn{
         background: #FF0000 !important;
